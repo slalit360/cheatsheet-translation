@@ -8,73 +8,73 @@
 **2. Introduction to Probability and Combinatorics**
 
 &#10230;
-
+संभावना और संयोजक का परिचय
 <br>
 
 **3. Sample space ― The set of all possible outcomes of an experiment is known as the sample space of the experiment and is denoted by S.**
 
 &#10230;
-
+नमूना स्थान - एक प्रयोग के सभी संभावित परिणामों के सेट को प्रयोग के नमूने स्थान के रूप में जाना जाता है और इसे एस द्वारा दर्शाया जाता है।
 <br>
 
 **4. Event ― Any subset E of the sample space is known as an event. That is, an event is a set consisting of possible outcomes of the experiment. If the outcome of the experiment is contained in E, then we say that E has occurred.**
 
 &#10230;
-
+घटना - नमूना स्थान के किसी भी सबसेट ई को एक घटना के रूप में जाना जाता है। यही है, एक घटना प्रयोग के संभावित परिणामों से मिलकर एक सेट है। यदि प्रयोग का परिणाम ई में निहित है, तो हम कहते हैं कि ई हुआ है।
 <br>
 
 **5. Axioms of probability For each event E, we denote P(E) as the probability of event E occuring.**
 
 &#10230;
-
+प्रायिकता की संभावनाएं प्रत्येक ई कार्यक्रम के लिए, हम ई ई की संभावना के रूप में पी (ई) को दर्शाते हैं।
 <br>
 
 **6. Axiom 1 ― Every probability is between 0 and 1 included, i.e:**
 
 &#10230;
-
+आख्यान १ - हर संभावना 0 और 1 के बीच है, अर्थात्:
 <br>
 
 **7. Axiom 2 ― The probability that at least one of the elementary events in the entire sample space will occur is 1, i.e:**
 
 &#10230;
-
+आख्यान २ - संभावना है कि पूरे नमूना स्थान में कम से कम एक प्रारंभिक घटना 1 होगी, अर्थात्:
 <br>
 
 **8. Axiom 3 ― For any sequence of mutually exclusive events E1,...,En, we have:**
 
 &#10230;
-
+आख्यान ३ - पारस्परिक रूप से अनन्य घटनाओं E1, ..., En के किसी भी क्रम के लिए, हमारे पास:
 <br>
 
 **9. Permutation ― A permutation is an arrangement of r objects from a pool of n objects, in a given order. The number of such arrangements is given by P(n,r), defined as:**
 
 &#10230;
-
+क्रमपरिवर्तन - क्रमपरिवर्तन एक दिए गए क्रम में n वस्तुओं के एक पूल से r वस्तुओं की एक व्यवस्था है। इस तरह की व्यवस्था की संख्या P (n, r) द्वारा दी गई है, इसे इस प्रकार परिभाषित किया गया है:
 <br>
 
 **10. Combination ― A combination is an arrangement of r objects from a pool of n objects, where the order does not matter. The number of such arrangements is given by C(n,r), defined as:**
 
 &#10230;
-
+संयोजन - एक संयोजन एन ऑब्जेक्ट्स के एक पूल से आर ऑब्जेक्ट्स की व्यवस्था है, जहां ऑर्डर कोई फर्क नहीं पड़ता। इस तरह की व्यवस्थाओं की संख्या C (n, r) द्वारा दी गई है, जिन्हें इस प्रकार परिभाषित किया गया है:
 <br>
 
 **11. Remark: we note that for 0⩽r⩽n, we have P(n,r)⩾C(n,r)**
 
 &#10230;
-
+टिप्पणी: हम ध्यान दें कि 0⩽r⩽n के लिए, हमारे पास P (n, r) (C (n, r) है
 <br>
 
 **12. Conditional Probability**
 
 &#10230;
-
+सशर्त संभाव्यता
 <br>
 
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
 &#10230;
-
+बेय्स नियम - ए और बी की घटनाओं के लिए ऐसा है कि पी (बी)> 0, हमारे पास है:
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
