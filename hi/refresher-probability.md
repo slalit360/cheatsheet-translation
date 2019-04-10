@@ -1,6 +1,7 @@
 **1. Probabilities and Statistics refresher**
 
-&#10230;
+&#10230; 
+संभाव्यता और सांख्यिकी पुनश्चर्या
 
 <br>
 
