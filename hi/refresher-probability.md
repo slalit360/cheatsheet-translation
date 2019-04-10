@@ -74,151 +74,151 @@
 **13. Bayes' rule ― For events A and B such that P(B)>0, we have:**
 
 &#10230;
-बेय्स नियम - ए और बी की घटनाओं के लिए ऐसा है कि पी (बी)> 0, हमारे पास है:
+बेय्स नियम - A और B की घटनाओं के लिए ऐसा है कि P(B)> 0, हमारे पास है:
 <br>
 
 **14. Remark: we have P(A∩B)=P(A)P(B|A)=P(A|B)P(B)**
 
 &#10230;
-
+टिप्पणी: हमारे पास P(A∩B) = P(A) P(B|A) = P(A(B)) P(B) है।
 <br>
 
 **15. Partition ― Let {Ai,i∈[[1,n]]} be such that for all i, Ai≠∅. We say that {Ai} is a partition if we have:**
 
 &#10230;
-
+विभाजन - चलो {Ai,i∈[[1,n]]} ऐसा हो जो सभी i के लिए , Ai≠∅. हम कहते हैं कि यदि हमारे पास {Ai} एक विभाजन है:
 <br>
 
 **16. Remark: for any event B in the sample space, we have P(B)=n∑i=1P(B|Ai)P(Ai).**
 
 &#10230;
-
+टिप्पणी: नमूना स्थान में किसी भी घटना B के लिए, हमारे पास है P(B)=n∑i=1P(B|Ai)P(Ai).
 <br>
 
 **17. Extended form of Bayes' rule ― Let {Ai,i∈[[1,n]]} be a partition of the sample space. We have:**
 
 &#10230;
-
+बेय्स नियम का विस्तारित रूप - चलो {Ai,i∈[[1,n]]} नमूना स्थान का एक विभाजन हो। हमारे पास है:
 <br>
 
 **18. Independence ― Two events A and B are independent if and only if we have:**
 
 &#10230;
-
+स्वतंत्रता - दो घटनाएँ A और B स्वतंत्र हैं यदि और केवल अगर हमारे पास हैं:
 <br>
 
 **19. Random Variables**
 
 &#10230;
-
+यादृच्छिक चर
 <br>
 
 **20. Definitions**
 
 &#10230;
-
+परिभाषाएं
 <br>
 
 **21. Random variable ― A random variable, often noted X, is a function that maps every element in a sample space to a real line.**
 
 &#10230;
-
+रैंडम वैरिएबल - एक रैंडम वैरिएबल, जिसे अक्सर X कहा जाता है, एक ऐसा फंक्शन है जो सैंपल स्पेस में हर एलिमेंट को रियल लाइन पर मैप करता है।
 <br>
 
 **22. Cumulative distribution function (CDF) ― The cumulative distribution function F, which is monotonically non-decreasing and is such that limx→−∞F(x)=0 and limx→+∞F(x)=1, is defined as:**
 
 &#10230;
-
+संचयी वितरण फ़ंक्शन (CDF) - संचयी वितरण फ़ंक्शन F, जो कि मोनोटोनॉली रूप से गैर-घटता है और ऐसा है कि limx → limF (x) = 0 और limx → + ∞F (x) = 1, को परिभाषित किया गया है:
 <br>
 
 **23. Remark: we have P(a<X⩽B)=F(b)−F(a).**
 
 &#10230;
-
+टिप्पणी: हमारे पास P(a <X⩽B) = F(b) - F(a) है।
 <br>
 
 **24. Probability density function (PDF) ― The probability density function f is the probability that X takes on values between two adjacent realizations of the random variable.**
 
 &#10230;
-
+प्रायिकता घनत्व फ़ंक्शन (PDF) - प्रायिकता घनत्व फ़ंक्शन f वह संभावना है जो X रैंडम वैरिएबल के दो आसन्न अहसासों के बीच मान लेता है।
 <br>
 
 **25. Relationships involving the PDF and CDF ― Here are the important properties to know in the discrete (D) and the continuous (C) cases.**
 
 &#10230;
-
+पीडीएफ और सीडीएफ से संबंध - यहां असतत (D) और निरंतर (C) मामलों में जानने के लिए महत्वपूर्ण गुण हैं।
 <br>
 
 **26. [Case, CDF F, PDF f, Properties of PDF]**
 
 &#10230;
-
+[मामला, सीडीएफ F, पीडीएफ f, पीडीएफ के गुण]
 <br>
 
 **27. Expectation and Moments of the Distribution ― Here are the expressions of the expected value E[X], generalized expected value E[g(X)], kth moment E[Xk] and characteristic function ψ(ω) for the discrete and continuous cases:**
 
 &#10230;
-
+वितरण की अपेक्षा और क्षण - यहाँ अपेक्षित मूल्य E[X], सामान्यीकृत अपेक्षित मान E[g(X)], kth क्षण E[Xk] और असतत और निरंतर मामलों के लिए विशेषता फ़ंक्शन ψ(ω) के भाव हैं। :
 <br>
 
 **28. Variance ― The variance of a random variable, often noted Var(X) or σ2, is a measure of the spread of its distribution function. It is determined as follows:**
 
 &#10230;
-
+भिन्नता - एक यादृच्छिक चर का विचरण, जिसे अक्सर  Var(X) या σ2 नोट किया जाता है, इसके वितरण समारोह के प्रसार का एक उपाय है। यह निम्नानुसार निर्धारित किया जाता है:
 <br>
 
 **29. Standard deviation ― The standard deviation of a random variable, often noted σ, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:**
 
 &#10230;
-
+मानक विचलन - एक यादृच्छिक चर का मानक विचलन, जिसे अक्सर σ कहा जाता है, इसके वितरण फ़ंक्शन के प्रसार का एक उपाय है जो वास्तविक यादृच्छिक चर की इकाइयों के साथ संगत है। यह निम्नानुसार निर्धारित किया जाता है:
 <br>
 
 **30. Transformation of random variables ― Let the variables X and Y be linked by some function. By noting fX and fY the distribution function of X and Y respectively, we have:**
 
 &#10230;
-
+रैंडम वेरिएबल्स का ट्रांसफॉर्मेशन - वेरिएबल्स X और Y को किसी फंक्शन से लिंक होने दें। क्रमश: X और Y के वितरण समारोह fX और fY को ध्यान में रखते हुए, हमारे पास:
 <br>
 
 **31. Leibniz integral rule ― Let g be a function of x and potentially c, and a,b boundaries that may depend on c. We have:**
 
 &#10230;
-
+लीबनिज इंटीग्रल रूल - चलो g संभावित x का एक फंक्शन है c, और a, b बाउंड्रीज जो c पर निर्भर हो सकता है। हमारे पास है:
 <br>
 
 **32. Probability Distributions**
 
 &#10230;
-
+संभाव्यता वितरण
 <br>
 
 **33. Chebyshev's inequality ― Let X be a random variable with expected value μ. For k,σ>0, we have the following inequality:**
 
 &#10230;
-
+चेबीशेव की असमानता - X को अपेक्षित मान μ के साथ एक यादृच्छिक चर होना चाहिए। K, σ>0 के लिए, हमारे पास निम्न असमानता है
 <br>
 
 **34. Main distributions ― Here are the main distributions to have in mind:**
 
 &#10230;
-
+मुख्य वितरण - यहाँ मुख्य वितरण ध्यान में रखना हैं:
 <br>
 
 **35. [Type, Distribution]**
 
 &#10230;
-
+[प्रकार, वितरण]
 <br>
 
 **36. Jointly Distributed Random Variables**
 
 &#10230;
-
+संयुक्त रूप से वितरित यादृच्छिक चर
 <br>
 
 **37. Marginal density and cumulative distribution ― From the joint density probability function fXY , we have**
 
 &#10230;
-
+सीमांत घनत्व और संचयी वितरण - संयुक्त घनत्व प्रायिकता फ़ंक्शन fXY से, हमारे पास
 <br>
 
 **38. [Case, Marginal density, Cumulative function]**
